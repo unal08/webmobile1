@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+}
+
+
+body{
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg1.jpg) no-repeat center center fixed;
+    font-family: "Montserrat", sans-serif;
+    min-width: 475.2px;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+.container{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    width: 31.29rem;
+}
+
+.content{
+    display: flex; 
+    flex-direction: column;
+    padding: 2rem 4.5rem;  
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png) repeat-x right top #f4f4f4;
+    text-align: center;
+    width: 100%;
+    border-top: 6px solid black;
+}
+
+.content> *:nth-child(n+2){
+    margin-top: 1rem;
+}
+
+h1{
+    display: inline-flex;
+    font-weight: 800 !important;
+    white-space: nowrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+h1 p{
+    font-size: 35px;
+}
+
+img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.icons i{
+    font-size: 15px;
+    background-color: #333333;
+    color: white;
+    padding: .5rem .5rem;
+}
+
+.icons i:hover{
+    background-color: #08aeac;
+}
+
+
+.hr{
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png) no-repeat center center;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+button{
+    padding: 10px 0;
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png) no-repeat center center #08aeac;
+    font-size: 12px;
+    border-style: none;
+    border-radius: 0.3rem;
+    color: white;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+button:hover {
+    background-color: red;
+    transition: background-color .6s ease-in-out;
+}
+
